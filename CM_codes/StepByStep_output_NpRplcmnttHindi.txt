@@ -1,0 +1,84 @@
+['SentenceID:1', '*\tNP\tbreath', '@\tJJ\tFresh', '@\tNN\tbreath', '*\tCC\tand', '@\tCC\tand', '*\tNP\tteeth', '@\tVBG\tshining', '@\tNNS\tteeth', '*\tVP\tenhance', '@\tVB\tenhance', '*\tNP\tpersonality', '@\tPRP$\tyour', '@\tNN\tpersonality', '#', 'SentenceID:9789', '*\tNP\tcase', '@\tIN\tIn', '@\tNN\tcase', '*\tNP\tfrenzy', '@\tIN\tof', '@\tDT\tthis', '@\tNN\tfrenzy', '*\tNP\tpatient', '@\tNN\tpatient', '*\tVP\tlooks', '@\tVBZ\tlooks', '*\tNP\tkind', '@\tNN\tkind', '*\tPP\tof', '@\tIN\tof', '*\tADJP\tmad', '@\tJJ\tmad', '*\tVP\tlost', '@\tVBN\tlost', '*\tNP\tmadness', '@\tIN\tin', '@\tDT\tsome', '@\tNN\tmadness', '#', '']
+['SentenceID:1', '*\tNP\tसाँसें', '@\tJJ\tताजा', '@\tNN\tसाँसें', '*\tCCP\tऔर', '@\tCC\tऔर', '*\tVGNF\tचमचमाते', '@\tVM\tचमचमाते', '*\tNP\tदाँत', '@\tNN\tदाँत', '*\tNP\tआपक्', '@\tPRP\tआपके', '*\tNP\tव्यक्तित्व', '@\tNN\tव्यक्तित्व', '@\tPSP\tको', '*\tVGNF\tनिखारते', '@\tVM\tनिखारते', '*\tVGF\tहैं', '@\tVM\tहैं', '*\tBLK\t.', '@\tSYM\t.', '#', 'SentenceID:9789', '*\tNP\tजुनून', '@\tDEM\tइस', '@\tNN\tजुनून', '@\tPSP\tके', '@\tPSP\tचलते', '*\tNP\tरोगी', '@\tNN\tरोगी', '*\tNP\tदीवानगी', '@\tPRP\tकिसी', '@\tNN\tदीवानगी', '@\tPSP\tमें', '*\tVGNF\tखोया', '@\tVM\tखोया', '*\tVGNF\tहुआ', '@\tVM\tहुआ', '*\tNP\tपागल', '@\tNNPC\tपागल', '@\tRP\tसा', '*\tVGF\tदिखाई', '@\tVM\tदिखाई', '@\tVAUX\tदेता', '@\tVAUX\tहै', '*\tBLK\t.', '@\tSYM\t.', '#', '']
+['ताजा साँसें ', 'और ', 'चमचमाते ', 'दाँत ', 'आपके ', 'व्यक्तित्व को ', 'निखारते ', 'हैं ', '. ']
+['JJ NN ', 'CC ', 'VM ', 'NN ', 'PRP ', 'NN PSP ', 'VM ', 'VM ', 'SYM ']
+['NP', 'CCP', 'VGNF', 'NP', 'NP', 'NP', 'VGNF', 'VGF', 'BLK']
+['साँसें', 'और', 'चमचमाते', 'दाँत', 'आपक्', 'व्यक्तित्व', 'निखारते', 'हैं', '.']
+['इस जुनून के चलते ', 'रोगी ', 'किसी दीवानगी में ', 'खोया ', 'हुआ ', 'पागल सा ', 'दिखाई देता है ', '. ']
+['DEM NN PSP PSP ', 'NN ', 'PRP NN PSP ', 'VM ', 'VM ', 'NNPC RP ', 'VM VAUX VAUX ', 'SYM ']
+['NP', 'NP', 'NP', 'VGNF', 'VGNF', 'NP', 'VGF', 'BLK']
+['जुनून', 'रोगी', 'दीवानगी', 'खोया', 'हुआ', 'पागल', 'दिखाई', '.']
+['NP']
+['breath']
+Fresh 
+Fresh breath 
+['NP', 'CC']
+['breath', 'and']
+and 
+['NP', 'CC', 'NP']
+['breath', 'and', 'teeth']
+shining 
+shining teeth 
+['NP', 'CC', 'NP', 'VP']
+['breath', 'and', 'teeth', 'enhance']
+enhance 
+['NP', 'CC', 'NP', 'VP', 'NP']
+['breath', 'and', 'teeth', 'enhance', 'personality']
+your 
+your personality 
+['NP']
+['case']
+In 
+In case 
+['NP', 'NP']
+['case', 'frenzy']
+of 
+of this 
+of this frenzy 
+['NP', 'NP', 'NP']
+['case', 'frenzy', 'patient']
+patient 
+['NP', 'NP', 'NP', 'VP']
+['case', 'frenzy', 'patient', 'looks']
+looks 
+['NP', 'NP', 'NP', 'VP', 'NP']
+['case', 'frenzy', 'patient', 'looks', 'kind']
+kind 
+['NP', 'NP', 'NP', 'VP', 'NP', 'PP']
+['case', 'frenzy', 'patient', 'looks', 'kind', 'of']
+of 
+['NP', 'NP', 'NP', 'VP', 'NP', 'PP', 'ADJP']
+['case', 'frenzy', 'patient', 'looks', 'kind', 'of', 'mad']
+mad 
+['NP', 'NP', 'NP', 'VP', 'NP', 'PP', 'ADJP', 'VP']
+['case', 'frenzy', 'patient', 'looks', 'kind', 'of', 'mad', 'lost']
+lost 
+['NP', 'NP', 'NP', 'VP', 'NP', 'PP', 'ADJP', 'VP', 'NP']
+['case', 'frenzy', 'patient', 'looks', 'kind', 'of', 'mad', 'lost', 'madness']
+in 
+in some 
+in some madness 
+
+## Matched words corresponding to Hindi from Giza++
+
+'साँसें', '
+['flicker', 'bargained', 'dying', 'flicker', 'rousing']
+
+' 'दाँत', '
+['aag', 'daant', 'demineralization', 'dentist', 'dhood', 'mooh', 'tooth', 'teeth', 'tooth']
+
+आपक्', 
+[]
+
+'व्यक्तित्व', ''
+['achiever', 'individuality', 'miltonic', 'persona', 'personality', 'personas', 'personality']
+
+जुनून',  
+['bedevilled', 'befalling', 'fervor', 'madness', 'tauhid', 'madness', 'matter', 'passion', 'possessed']
+
+'रोगी', 
+['diseased', 'patient', 'patients', 'rogi', 'patient']
+
+'दीवानगी',
+['distress', 'insane', 'madness']
+

@@ -1,0 +1,32 @@
+[['ताजा साँसें ', 'और ', 'चमचमाते ', 'दाँत ', 'आपके ', 'व्यक्तित्व को ', 'निखारते ', 'हैं ', '. ']]
+Phrase_hindi_done
+[['NP', 'CCP', 'VGNF', 'NP', 'NP', 'NP', 'VGNF', 'VGF', 'BLK']]
+Phrase_tags_hindi_done
+[['साँसें', 'और', 'चमचमाते', 'दाँत', 'आपक्', 'व्यक्तित्व', 'निखारते', 'हैं', '.']]
+heads_hindi_done
+[['JJ NN ', 'CC ', 'VM ', 'NN ', 'PRP ', 'NN PSP ', 'VM ', 'VM ', 'SYM ']]
+Pos_tags_hindi_done
+[['Fresh breath ', 'and ', 'shining teeth ', 'enhance ', 'your personality ']]
+Phrase_english_done
+[['NP', 'CC', 'NP', 'VP', 'NP']]
+Phrase_tags_english_done
+[['breath', 'and', 'teeth', 'enhance', 'personality']]
+heads_english_done
+
+
+print(phrases_eng)
+print('Phrase_english_done')
+print(phrase_tags_eng)
+print('Phrase_tags_english_done')
+print(heads_eng)
+print('heads_english_done')
+
+print(phrases_hin)
+print('Phrase_hindi_done')
+print(phrase_tags_hin)
+print('Phrase_tags_hindi_done')
+print(heads_hin)
+print('heads_hindi_done')
+print(pos_tags_hin)
+print('Pos_tags_hindi_done')
+
