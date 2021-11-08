@@ -11,7 +11,7 @@ Moreover we arranged the translation in the decreasing probability sequence.
 
 4. Head finding, output of LTRC Parser contained the head of each chunk.We extracted them. But this was not the case in Stanford Parser’s output. We used a list of possible tags that can act as a head, and used this list to find head of each chunk.
 
-##Sentence Generation:
+## Sentence Generation:
 
 1. We first extracted following information from the respective chunks of Hindi ad English such as the list oh heads, tags associated wiith heads, phrases i.e. head and words associated with them as tails, and pos tags associated with these phrases.
 
